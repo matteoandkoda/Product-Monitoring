@@ -8,10 +8,10 @@ from bs4 import BeautifulSoup
 
 # Global Variables (THESE FOUR MUST BE INPUT BY THE USER BETWEEN THE SINGLE QUOTES); email address must be gmail, password is not sent anywhere dangerous only to gmail servers, link is where the product site is; soldout indicator is the html of the page associated with the sold out button.
 
-email = ''
-password = ''
-link = ''
-soldout_indicator = ''
+email = 'scuffedfresh@gmail.com'
+password = 'bluetteo2019'
+link = 'https://www.bestbuy.ca/en-ca/product/nvidia-geforce-rtx-3060-ti-8gb-gddr6-video-card/15166285'
+soldout_indicator = 'type="button"><span class="content_3Dbgg"'
 
 # Extra automatic Global Variable Definitions
 
